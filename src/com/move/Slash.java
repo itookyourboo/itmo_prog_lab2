@@ -12,7 +12,7 @@ public class Slash extends PhysicalMove {
 
     @Override
     protected double calcCriticalHit(Pokemon pokemon, Pokemon pokemon1) {
-        if (Math.random() < 1d/8)
+        if (Math.random() < 1d / 8)
             return 2;
         return 1;
     }

@@ -4,7 +4,6 @@ import com.pokemon.*;
 import ru.ifmo.se.pokemon.Battle;
 
 public class Main {
-
     public static void main(String[] args) {
         Battle b = new Battle();
         addAllies(b);

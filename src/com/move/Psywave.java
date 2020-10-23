@@ -19,7 +19,7 @@ public class Psywave extends SpecialMove {
                 (int) Math.round(pokemon.getLevel() * randomCoefficient()));
     }
 
-    private double randomCoefficient(){
+    private double randomCoefficient() {
         return Math.random() + .5d;
     }
 
